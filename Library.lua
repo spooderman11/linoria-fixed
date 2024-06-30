@@ -518,7 +518,7 @@ do
             AnchorPoint = Vector2.new(0.5, 0.5);
             Size = UDim2.new(0, 6, 0, 6);
             BackgroundTransparency = 1;
-            Image = 'http://www.roblox.com/asset/?id=9619665977';
+            Image = 'http://www.roblox.com/asset/?id=18125355297';
             ImageColor3 = Color3.new(0, 0, 0);
             ZIndex = 19;
             Parent = SatVibMap;
@@ -528,7 +528,7 @@ do
             Size = UDim2.new(0, CursorOuter.Size.X.Offset - 2, 0, CursorOuter.Size.Y.Offset - 2);
             Position = UDim2.new(0, 1, 0, 1);
             BackgroundTransparency = 1;
-            Image = 'http://www.roblox.com/asset/?id=9619665977';
+            Image = 'http://www.roblox.com/asset/?id=18125355297';
             ZIndex = 20;
             Parent = CursorOuter;
         })
@@ -3533,7 +3533,7 @@ function Library:CreateWindow(...)
                 local CursorOutline = Drawing.new('Triangle');
                 CursorOutline.Thickness = 1;
                 CursorOutline.Filled = false;
-                CursorOutline.Color = Color3.new(0, 0, 0);
+                CursorOutline.Color = Color3.new(255, 255, 255);
                 CursorOutline.Visible = true;
 
                 while Toggled and ScreenGui.Parent do
